@@ -1,5 +1,7 @@
 systray is a cross-platform Go library to place an icon and menu in the notification area.
 
+This fork contains changes specific to the [netbird](https://github.com/netbirdio/netbird) project.
+
 ## Features
 
 * Supported on Windows, macOS, and Linux
