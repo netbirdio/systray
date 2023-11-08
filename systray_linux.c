@@ -34,7 +34,7 @@ typedef struct {
 
 void registerSystray(void) {
 	gtk_init(0, NULL);
-	global_app_indicator = app_indicator_new("systray", "", APP_INDICATOR_CATEGORY_APPLICATION_STATUS);
+	global_app_indicator = app_indicator_new("netbird-ui", "", APP_INDICATOR_CATEGORY_APPLICATION_STATUS);
 	app_indicator_set_status(global_app_indicator, APP_INDICATOR_STATUS_ACTIVE);
 	global_tray_menu = gtk_menu_new();
 	app_indicator_set_menu(global_app_indicator, GTK_MENU(global_tray_menu));
